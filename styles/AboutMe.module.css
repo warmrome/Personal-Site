@@ -18,3 +18,16 @@
   padding-top: 0;
   width: 50%;
 }
+
+@media (max-width: 900px) {
+  .container {
+    display: block;
+  }
+
+  .leftBox {
+    width: 100%;
+  }
+  .rightBox {
+    width: 100%;
+  }
+}
