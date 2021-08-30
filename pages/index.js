@@ -9,10 +9,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jameson Hurst | Home</title>
-        <meta name="keywords" content="ninjas" />
+        <title>Jamie Hurst</title>
+        <meta name="keywords" content="personal site" />
       </Head>
 
+      {/* Navigation Section */}
       <Navbar />
 
       {/* Simulates typing effect on the screen */}
