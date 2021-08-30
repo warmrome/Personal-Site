@@ -1,0 +1,40 @@
+import { Anchor, Avatar, Box, Heading, Paragraph } from "@dracula/dracula-ui";
+import Image from "next/image";
+import styles from "../styles/Navbar.module.css";
+
+const Navbar = () => {
+  return (
+    <Box color="background" display="flex">
+      <Box className={styles.socialBox}>
+        <Anchor
+          className={styles.socialIcons}
+          href="https://github.com/warmrome"
+          isExternal={true}
+          target="_blank"
+        >
+          <Image src="/github.svg" alt="github" width={35} height={35} />
+        </Anchor>
+
+        <Anchor
+          className={styles.socialIcons}
+          href="https://twitter.com/WarmRome"
+          isExternal={true}
+          target="_blank"
+        >
+          <Image src="/twitter.svg" alt="twitter" width={35} height={35} />
+        </Anchor>
+
+        <Anchor
+          className={styles.socialIcons}
+          href="https://www.linkedin.com/in/jameson-hurst/"
+          isExternal={true}
+          target="_blank"
+        >
+          <Image src="/linkedin.svg" alt="linkedin" width={35} height={35} />
+        </Anchor>
+      </Box>
+    </Box>
+  );
+};
+
+export default Navbar;

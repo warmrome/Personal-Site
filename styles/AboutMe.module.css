@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  margin: 0;
+}
+
+/* .avatar {
+  height: 50px;
+} */
+
+.leftBox {
+  padding: 2%;
+  padding-top: 0;
+  width: 50%;
+}
+
+.rightBox {
+  padding: 2%;
+  padding-top: 0;
+  width: 50%;
+}
