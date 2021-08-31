@@ -1,7 +1,5 @@
-## personal-site
+## Personal website built with Next.js and Dracula UI.
 
-Built with Next.js and Dracula UI.
 
-## work-in-progress
 
-More refinements and content additions to come.
+## More refinements and content additions to come.
