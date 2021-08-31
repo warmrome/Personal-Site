@@ -1,5 +1,4 @@
 ## Personal website built with Next.js and Dracula UI.
 
-![alt text](https://github.com/warmrome/personal-site/public/personal-site-screenshot.png?raw=true)
+![personal-site](https://github.com/warmrome/personal-site/public/personal-site-screenshot.png)
 
-## More refinements and content additions to come.
