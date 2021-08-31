@@ -2,6 +2,6 @@
 
 ![personal-site](/public/personal-site-screenshot.png?raw=true)
 
-## [jamesonhurst.com](url)
+## [jamesonhurst.com](jamesonhurst.com)
 
 
