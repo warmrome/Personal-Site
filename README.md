@@ -2,6 +2,6 @@
 
 ![personal-site](/public/personal-site-screenshot.png?raw=true)
 
-## [jamesonhurst.com](https://www.jamesonhurst.com){:target="_blank"}
+## [jamesonhurst.com](https://www.jamesonhurst.com)
 
 
