@@ -1,10 +1,10 @@
-import { Anchor, Avatar, Box, Heading, Paragraph } from "@dracula/dracula-ui";
+import { Anchor, Box } from "@dracula/dracula-ui";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <Box color="background" display="flex">
+    <Box display="flex">
       <Box className={styles.socialBox}>
         <Anchor
           className={styles.socialIcons}

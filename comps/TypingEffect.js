@@ -7,7 +7,7 @@ const TypingEffect = () => {
     <Box>
       <Heading color="green">
         <ReactTypingEffect
-          className="typingEffect"
+          className="typingEffect1"
           text={["Hi, I'm Jamie."]}
           speed={80}
           eraseDelay={30000}
@@ -17,10 +17,10 @@ const TypingEffect = () => {
 
       <Heading color="red">
         <ReactTypingEffect
-          className="typingEffect"
+          className="typingEffect2"
           text={[
             "I like to write code.",
-            "I'm currently learning SwiftUI.",
+            "I'm learning SwiftUI.",
             "Let's chat sometime.",
           ]}
           speed={80}

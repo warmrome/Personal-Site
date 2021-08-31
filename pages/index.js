@@ -19,8 +19,6 @@ export default function Home() {
       {/* Simulates typing effect on the screen */}
       <TypingEffect />
 
-      <MyAvatar />
-
       <AboutMe />
 
       <Footer />

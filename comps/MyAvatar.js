@@ -5,7 +5,7 @@ const MyAvatar = () => {
   return (
     <Box className={styles.container}>
       <Avatar
-        title="Count Dracula"
+        title="jamie"
         src="/profile.png"
         alt="profile picture"
         borderVariant="large"
