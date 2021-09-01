@@ -1,21 +1,47 @@
-import { Box, Heading } from "@dracula/dracula-ui";
+import { Box } from "@dracula/dracula-ui";
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 
 const TypingEffect = () => {
   return (
     <Box>
-      <Heading color="green">
+      <Box>
         <ReactTypingEffect
           className="typingEffect1"
           text={["Hi, I'm Jamie."]}
+          cursorRenderer={(cursor) => (
+            <h1 style={{ fontFamily: "fira code" }}>{cursor}</h1>
+          )}
+          displayTextRenderer={(text, i) => {
+            return (
+              <h1>
+                {text.split("").map((char, i) => {
+                  const key = `${i}`;
+                  return (
+                    <span
+                      key={key}
+                      style={
+                        i >= 0
+                          ? {
+                              fontFamily: "fira code",
+                            }
+                          : {}
+                      }
+                    >
+                      {char}
+                    </span>
+                  );
+                })}
+              </h1>
+            );
+          }}
           speed={80}
           eraseDelay={30000}
           typingDelay={500}
         />
-      </Heading>
+      </Box>
 
-      <Heading color="red">
+      <Box>
         <ReactTypingEffect
           className="typingEffect2"
           text={[
@@ -23,11 +49,37 @@ const TypingEffect = () => {
             "I'm learning SwiftUI.",
             "Let's chat sometime.",
           ]}
+          cursorRenderer={(cursor) => (
+            <h1 style={{ fontFamily: "fira code" }}>{cursor}</h1>
+          )}
+          displayTextRenderer={(text, i) => {
+            return (
+              <h1>
+                {text.split("").map((char, i) => {
+                  const key = `${i}`;
+                  return (
+                    <span
+                      key={key}
+                      style={
+                        i >= 0
+                          ? {
+                              fontFamily: "fira code",
+                            }
+                          : {}
+                      }
+                    >
+                      {char}
+                    </span>
+                  );
+                })}
+              </h1>
+            );
+          }}
           speed={80}
           eraseDelay={2500}
           typingDelay={2500}
         />
-      </Heading>
+      </Box>
     </Box>
   );
 };

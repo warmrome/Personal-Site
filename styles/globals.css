@@ -5,18 +5,22 @@ body {
 .footer {
   display: block;
   text-align: center;
-  padding-top: 15%;
-  padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 2.5%;
 }
 
 .typingEffect1 {
-  font-size: 6.5rem;
+  color: #8aff80;
+  min-height: 0vw;
+  font-size: clamp(1.15rem, 0.4231rem + 3.2308vw, 3.25rem);
   padding-left: 2%;
   padding-bottom: 2%;
 }
 
 .typingEffect2 {
-  font-size: 4rem;
+  color: #ff9580;
+  min-height: 0vw;
+  font-size: clamp(0.74rem, 0.3038rem + 1.9385vw, 2rem);
   padding-left: 2%;
   padding-bottom: 2%;
 }
@@ -32,12 +36,4 @@ body {
   max-width: 1400px;
   min-width: 360px;
   margin: auto;
-}
-
-.typingEffect1 {
-  font-size: clamp(2.3rem, 0.5rem + 8vw, 6.5rem);
-}
-
-.typingEffect2 {
-  font-size: clamp(1.5rem, 0.4286rem + 4.7619vw, 4rem);
 }
