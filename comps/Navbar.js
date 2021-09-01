@@ -38,3 +38,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// Social media icons by Freepik at flaticon.com

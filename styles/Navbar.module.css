@@ -8,11 +8,6 @@
 }
 
 .socialIcons {
-  /* Red
-  filter: invert(64%) sepia(41%) saturate(4141%) hue-rotate(321deg)
-    brightness(134%) contrast(105%); */
-
-  /* pink   */
   filter: invert(63%) sepia(77%) saturate(594%) hue-rotate(291deg)
     brightness(104%) contrast(101%);
 

@@ -1,9 +1,8 @@
 import { Avatar, Box } from "@dracula/dracula-ui";
-import styles from "../styles/MyAvatar.module.css";
 
 const MyAvatar = () => {
   return (
-    <Box className={styles.container}>
+    <Box>
       <Avatar
         title="jamie"
         src="/profile.png"
