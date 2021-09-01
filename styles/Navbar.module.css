@@ -7,10 +7,25 @@
   padding: 2%;
 }
 
-.socialIcons {
+.gitHub {
   filter: invert(63%) sepia(77%) saturate(594%) hue-rotate(291deg)
     brightness(104%) contrast(101%);
 
-  padding: 10px;
+  flex-shrink: 0;
+}
+
+.linkedIn {
+  padding-left: 15px;
+  filter: invert(63%) sepia(77%) saturate(594%) hue-rotate(291deg)
+    brightness(104%) contrast(101%);
+
+  flex-shrink: 0;
+}
+
+.twitter {
+  padding-left: 15px;
+  filter: invert(63%) sepia(77%) saturate(594%) hue-rotate(291deg)
+    brightness(104%) contrast(101%);
+
   flex-shrink: 0;
 }

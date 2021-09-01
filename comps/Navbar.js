@@ -7,7 +7,7 @@ const Navbar = () => {
     <Box display="flex">
       <Box className={styles.socialBox}>
         <Anchor
-          className={styles.socialIcons}
+          className={styles.gitHub}
           href="https://github.com/warmrome"
           isExternal={true}
           target="_blank"
@@ -16,7 +16,7 @@ const Navbar = () => {
         </Anchor>
 
         <Anchor
-          className={styles.socialIcons}
+          className={styles.twitter}
           href="https://twitter.com/WarmRome"
           isExternal={true}
           target="_blank"
@@ -25,7 +25,7 @@ const Navbar = () => {
         </Anchor>
 
         <Anchor
-          className={styles.socialIcons}
+          className={styles.linkedIn}
           href="https://www.linkedin.com/in/jameson-hurst/"
           isExternal={true}
           target="_blank"
