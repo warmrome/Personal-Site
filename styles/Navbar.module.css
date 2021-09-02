@@ -15,7 +15,6 @@
 }
 
 .linkedIn {
-  padding-left: 15px;
   filter: invert(63%) sepia(77%) saturate(594%) hue-rotate(291deg)
     brightness(104%) contrast(101%);
 
@@ -23,7 +22,8 @@
 }
 
 .twitter {
-  padding-left: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   filter: invert(63%) sepia(77%) saturate(594%) hue-rotate(291deg)
     brightness(104%) contrast(101%);
 
