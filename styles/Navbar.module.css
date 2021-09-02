@@ -12,6 +12,8 @@
     brightness(104%) contrast(101%);
 
   flex-shrink: 0;
+  height: 35px;
+  width: 35px;
 }
 
 .linkedIn {
@@ -19,13 +21,17 @@
     brightness(104%) contrast(101%);
 
   flex-shrink: 0;
+  height: 35px;
+  width: 35px;
 }
 
 .twitter {
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   filter: invert(63%) sepia(77%) saturate(594%) hue-rotate(291deg)
     brightness(104%) contrast(101%);
 
   flex-shrink: 0;
+  height: 35px;
+  width: 35px;
 }
