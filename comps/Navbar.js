@@ -11,8 +11,9 @@ const Navbar = () => {
           href="https://github.com/warmrome"
           isExternal={true}
           target="_blank"
+          aria-label="GitHub"
         >
-          <Image src="/github.svg" alt="github" width={35} height={35} />
+          <Image src="/github-green.svg" alt="github" width={35} height={35} />
         </Anchor>
 
         <Anchor
@@ -20,8 +21,14 @@ const Navbar = () => {
           href="https://twitter.com/WarmRome"
           isExternal={true}
           target="_blank"
+          aria-label="Twitter"
         >
-          <Image src="/twitter.svg" alt="twitter" width={35} height={35} />
+          <Image
+            src="/twitter-green2.svg"
+            alt="twitter"
+            width={35}
+            height={35}
+          />
         </Anchor>
 
         <Anchor
@@ -29,8 +36,14 @@ const Navbar = () => {
           href="https://www.linkedin.com/in/jameson-hurst/"
           isExternal={true}
           target="_blank"
+          aria-label="LinkedIn"
         >
-          <Image src="/linkedin.svg" alt="linkedin" width={35} height={35} />
+          <Image
+            src="/linkedin-green.svg"
+            alt="linkedin"
+            width={35}
+            height={35}
+          />
         </Anchor>
       </Box>
     </Box>

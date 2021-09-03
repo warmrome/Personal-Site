@@ -10,7 +10,12 @@ export default function Home() {
     <Box className="appBox">
       <Head>
         <title>Jamie Hurst</title>
-        <meta name="keywords" content="personal site" />
+        <meta
+          name="description"
+          content="Personal website and iOS developer portfolio for Jameson Hurst"
+          name="keywords"
+          content="swift, swiftUI, iOS, development, developer, portfolio, react, next.js, draculaUI, coding"
+        />
       </Head>
 
       <Navbar />

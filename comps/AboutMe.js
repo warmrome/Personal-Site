@@ -24,7 +24,13 @@ const AboutMe = () => {
         </Box>
         <Box className={styles.rightBox}>
           <Box className={styles.cauldronBox}>
-            <Image src="/cauldron.svg" height="600px" width="600px"></Image>
+            <Image
+              src="/cauldron.svg"
+              height="600px"
+              width="600px"
+              alt="cauldron"
+              aria-label="cauldron"
+            ></Image>
           </Box>
         </Box>
       </Box>

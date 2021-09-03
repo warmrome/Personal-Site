@@ -10,8 +10,8 @@ body {
 }
 
 .typingEffect1 {
-  color: #8aff80;
-  /* -webkit-marquee-increment: 0vw; */
+  color: #f8f8f2;
+  min-height: 0vw;
   font-size: clamp(1.15rem, 0.4231rem + 3.2308vw, 3.25rem);
   padding-left: 2%;
   padding-bottom: 2%;
@@ -19,7 +19,7 @@ body {
 
 .typingEffect2 {
   color: #f8f8f2;
-  /* -webkit-marquee-increment: 0vw; */
+  min-height: 0vw;
   font-size: clamp(0.74rem, 0.3038rem + 1.9385vw, 2rem);
   padding-left: 2%;
   padding-bottom: 2%;
