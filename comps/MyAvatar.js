@@ -8,7 +8,7 @@ const MyAvatar = () => {
         src="/profile.png"
         alt="profile picture"
         borderVariant="large"
-        color="pink"
+        color="green"
       />
     </Box>
   );
