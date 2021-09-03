@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <Box className="appBox">
       <Head>
+        <html lang="en" />
         <title>Jamie Hurst</title>
+
         <meta
           name="description"
           content="Personal website and iOS developer portfolio for Jameson Hurst"
