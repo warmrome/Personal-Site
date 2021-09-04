@@ -15,8 +15,10 @@ export default function Home() {
         <meta
           name="description"
           content="Personal website and iOS developer portfolio for Jameson Hurst"
+        />
+        <meta
           name="keywords"
-          content="swift, swiftUI, iOS, development, developer, portfolio, react, next.js, draculaUI, coding"
+          content="apple, swift, swiftUI, iOS, development, developer, portfolio, react, next.js, draculaUI, coding"
         />
       </Head>
 
