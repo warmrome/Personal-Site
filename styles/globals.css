@@ -36,4 +36,5 @@ body {
 .appBox {
   max-width: 1400px;
   min-width: 360px;
+  padding: 2%;
 }
