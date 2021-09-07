@@ -24,13 +24,18 @@
   text-align: center;
 }
 
+.cauldronBox {
+  height: 600px;
+  width: 600px;
+}
+
 .paragraph {
   min-height: 1vw;
   font-size: clamp(1rem, 0.8269rem + 0.7692vw, 1.5rem);
   line-height: 1.5;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1330px) {
   .container {
     display: block;
   }
