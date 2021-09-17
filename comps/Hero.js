@@ -16,11 +16,11 @@ const Hero = () => {
       </Box>
 
       <Box className={styles.buttonBox}>
-        <Link to="aboutMe" spy={true} smooth={true}>
-          <Button size="lg" mr="sm" as="button" color="pinkPurple">
+        <Button size="lg" mr="sm" as="button" color="pinkPurple">
+          <Link to="aboutMe" spy={true} smooth={true}>
             About me
-          </Button>
-        </Link>
+          </Link>
+        </Button>
 
         <Button size="lg" as="button" variant="outline" color="purple">
           Work
