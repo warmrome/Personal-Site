@@ -7,11 +7,8 @@ const Hero = () => {
     <Box className={styles.container}>
       <Box className={styles.heroBox}>
         <Heading className={styles.heroText} color="white">
-          Hello! I'm Jamie,<span className={styles.emoji}> 🧑‍💻 </span>a
-          Portland
-          <span className={styles.emoji}> 🏔 </span>based iOS
-          developer-in-training and new dad
-          <span className={styles.emoji}> 🍼 </span> currently learning SwiftUI.
+          Hello! 👋 I'm Jamie, a Portland 🏔 based iOS developer-in-training
+          🧑‍💻 currently learning SwiftUI.
         </Heading>
       </Box>
 

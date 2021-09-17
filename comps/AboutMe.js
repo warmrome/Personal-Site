@@ -12,12 +12,12 @@ const AboutMe = () => {
 
       <Box className={styles.container}>
         <Paragraph className={styles.paragraphL} m="none">
-          I recently left my job in technical support to study iOS development
-          full-time and embark on a major career change. Before I left, I built
-          two Safari extensions to enhance the web app my team used. They were
-          very simple, but still useful enough that most people on the team
-          adopted them. It felt great to solve real problems with code and made
-          me realize I'd rather build apps for a living.
+          I recently left my job at Apple to study iOS development full-time and
+          embark on a major career change. Before I left, I built two Safari
+          extensions to enhance the web app my team used. The functionality they
+          offered was simple, but ended up becoming essential tools. It felt
+          great to solve real problems with code and made me realize I'd rather
+          build apps for a living.
         </Paragraph>
         <Paragraph className={styles.paragraphR} m="none">
           I’m currently teaching myself iOS development with a primary focus on

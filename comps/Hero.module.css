@@ -25,9 +25,9 @@
   border: 1px solid #414558;
 }
 
-.emoji {
+/* .emoji {
   -webkit-text-fill-color: black;
-}
+} */
 
 @media (max-width: 755px) {
   .heroBox {
