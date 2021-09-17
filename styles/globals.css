@@ -16,6 +16,9 @@ the hover shadow, specify a size, and add an animation when hovered. */
   button {
     width: 150px;
   }
+  svg {
+    fill: #9580ff;
+  }
 }
 
 @supports not (-webkit-touch-callout: none) {
@@ -30,14 +33,14 @@ the hover shadow, specify a size, and add an animation when hovered. */
   button:hover {
     transform: scale(1.075);
   }
-}
 
-svg {
-  fill: #9580ff;
-  transition: all 0.25s;
-  transform-origin: 50% 50%;
-}
+  svg {
+    fill: #9580ff;
+    transition: all 0.25s;
+    transform-origin: 50% 50%;
+  }
 
-svg:hover {
-  transform: scale(1.2);
+  svg:hover {
+    transform: scale(1.2);
+  }
 }
