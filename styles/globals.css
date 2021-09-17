@@ -12,16 +12,24 @@ body {
 /* Altering dracula UI standard button to remove
 the hover shadow, specify a size, and add an animation when hovered. */
 
-button {
-  width: 150px;
-  box-shadow: none !important;
-  opacity: 1 !important;
-  transition: all 0.25s;
-  transform-origin: 50% 50%;
+@supports (-webkit-touch-callout: none) {
+  button {
+    width: 150px;
+  }
 }
 
-button:hover {
-  transform: scale(1.075);
+@supports not (-webkit-touch-callout: none) {
+  button {
+    width: 150px;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    transition: all 0.25s;
+    transform-origin: 50% 50%;
+  }
+
+  button:hover {
+    transform: scale(1.075);
+  }
 }
 
 svg {
