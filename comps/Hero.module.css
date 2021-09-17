@@ -1,0 +1,37 @@
+.heroBox {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 150px;
+  margin-bottom: 130px;
+}
+
+.heroText {
+  min-height: 1vw;
+  font-size: clamp(2rem, (1.8548rem + 0.6452vw), 2.25rem);
+  line-height: 1.65;
+}
+
+.buttonBox {
+  display: flex;
+  padding-left: 5%;
+  padding-bottom: 100px;
+  margin-bottom: 140px;
+}
+
+.divider {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 60px;
+  border: 1px solid #414558;
+}
+
+.emoji {
+  -webkit-text-fill-color: black;
+}
+
+@media (max-width: 755px) {
+  .heroBox {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}

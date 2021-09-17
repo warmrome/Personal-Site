@@ -1,0 +1,13 @@
+.footer {
+  display: block;
+  text-align: center;
+  padding: 5%;
+  margin-top: 60px;
+}
+
+.heart {
+  color: #ff80bf;
+  font-size: 1.25rem;
+  position: relative;
+  top: 0.1em;
+}

@@ -1,41 +1,35 @@
+a {
+  display: inline-block;
+}
+
 body {
   margin: 0 auto;
-  background: #22212c;
-}
-
-.footer {
-  display: block;
-  text-align: center;
-  padding-top: 10%;
-  padding-bottom: 2.5%;
-}
-
-.typingEffect1 {
-  color: #f8f8f2;
-  min-height: 1vw;
-  font-size: clamp(1.15rem, 0.5096rem + 2.8462vw, 3rem);
-  padding-left: 2%;
-  padding-bottom: 2%;
-}
-
-.typingEffect2 {
-  color: #f8f8f2;
-  min-height: 1vw;
-  font-size: clamp(0.74rem, 0.3904rem + 1.5538vw, 1.75rem);
-  padding-left: 2%;
-  padding-bottom: 2%;
-}
-
-.heart {
-  color: #ff80bf;
-  font-size: 1.25rem;
-  position: relative;
-  top: 0.1em;
-}
-
-.appBox {
-  max-width: 1400px;
+  background: #21222c;
+  max-width: 980px;
   min-width: 360px;
-  padding: 2%;
-  margin: auto;
+}
+
+/* Altering dracula UI standard button to remove
+the hover shadow, specify a size, and add an animation when hovered. */
+
+button {
+  width: 150px;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  transition: all 0.25s;
+  transform-origin: 50% 50%;
+}
+
+button:hover {
+  transform: scale(1.075);
+}
+
+svg {
+  fill: #9580ff;
+  transition: all 0.25s;
+  transform-origin: 50% 50%;
+}
+
+svg:hover {
+  transform: scale(1.2);
 }

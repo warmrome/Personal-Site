@@ -1,43 +1,35 @@
-import { Box, Paragraph } from "@dracula/dracula-ui";
-import styles from "../styles/AboutMe.module.css";
-import MyAvatar from "./MyAvatar";
-import Image from "next/image";
+import { Box, Heading, Paragraph } from "@dracula/dracula-ui";
+import styles from "../comps/AboutMe.module.css";
 
 const AboutMe = () => {
   return (
-    <Box className={styles.mainContainer}>
-      <Box className={styles.container}>
-        <Box className={styles.leftBox}>
-          <MyAvatar />
-          <Paragraph className={styles.paragraph}>
-            I’ve spent the last 10 years working in various technical support
-            roles at a major tech company. I recently left my job to study app
-            development full-time and embark on a major career change.
-            <br />
-            <br />
-            I’m currently teaching myself iOS development using Apple’s new
-            SwiftUI framework. I’m also doodling with this website built with
-            Next.js and Dracula UI. I’m brewing up some cool app ideas in the
-            cauldron, and I’m excited to showcase them all here soon. Thanks for
-            stopping by!
-          </Paragraph>
-        </Box>
-        <Box className={styles.rightBox}>
-          <Box className={styles.cauldronBox}>
-            <Image
-              src="/cauldron.svg"
-              height="600px"
-              width="600px"
-              alt="cauldron"
-              aria-label="cauldron"
-            ></Image>
-          </Box>
-        </Box>
+    <>
+      <Box className={styles.headingBox} id="aboutMe">
+        <Heading className={styles.heading} as="h2" color="purple">
+          About me
+        </Heading>
       </Box>
-    </Box>
+
+      <Box className={styles.container}>
+        <Paragraph className={styles.paragraphL} m="none">
+          I recently left my job in technical support to study iOS development
+          full-time and embark on a major career change. Before I left, I built
+          two Safari extensions to enhance the web app my team used. They were
+          very simple, but still useful enough that most people on the team
+          adopted them. It felt great to solve real problems with code and made
+          me realize I'd rather build apps for a living.
+        </Paragraph>
+        <Paragraph className={styles.paragraphR} m="none">
+          I’m currently teaching myself iOS development with a primary focus on
+          Apple’s SwiftUI framework. I'm doing the #100DaysOfSwiftUI challenge
+          and will be posting progress updates on Twitter. I’m also doodling
+          with this website built with Next.js and Dracula UI. I’m brewing up
+          some cool app ideas, and I’m excited to showcase them all here. Thanks
+          for stopping by!
+        </Paragraph>
+      </Box>
+    </>
   );
 };
 
 export default AboutMe;
-
-// Cauldron icon made my Freepik at flaticon.com

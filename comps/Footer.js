@@ -1,12 +1,13 @@
-import { Text } from "@dracula/dracula-ui";
+import { Box, Text } from "@dracula/dracula-ui";
+import styles from "../comps/Footer.module.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <Text>
-        Made with <span className="heart">♥</span> in Portland, Oregon.
+    <Box className={styles.footer}>
+      <Text size="sm">
+        Made with <span className={styles.heart}>♥</span> in Portland, Oregon.
       </Text>
-    </div>
+    </Box>
   );
 };
 

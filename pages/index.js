@@ -1,20 +1,20 @@
 import Head from "next/head";
+import Navbar from "../comps/Navbar";
 import AboutMe from "../comps/AboutMe";
 import Footer from "../comps/Footer";
-import Navbar from "../comps/Navbar";
-import TypingEffect from "../comps/TypingEffect";
-import { Box } from "@dracula/dracula-ui";
+
+import Hero from "../comps/Hero";
 
 export default function Home() {
   return (
-    <Box className="appBox">
+    <>
       <Head>
         <html lang="en" />
-        <title>Jamie Hurst</title>
+        <title>Jameson Hurst</title>
 
         <meta
           name="description"
-          content="Personal website and iOS developer portfolio for Jameson Hurst"
+          content="Personal website and developer portfolio for Jameson Hurst"
         />
         <meta
           name="keywords"
@@ -23,9 +23,9 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <TypingEffect />
+      <Hero />
       <AboutMe />
       <Footer />
-    </Box>
+    </>
   );
 }

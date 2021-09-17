@@ -1,0 +1,19 @@
+.socialBox {
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+  padding: 5%;
+}
+
+.gitHub,
+.linkedIn,
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+
+.twitter {
+  margin-left: 20px;
+  margin-right: 20px;
+}
