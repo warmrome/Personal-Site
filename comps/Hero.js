@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Heading } from "@dracula/dracula-ui";
+import { Box, Button, Divider, Heading, Text } from "@dracula/dracula-ui";
 import styles from "../comps/Hero.module.css";
 import { Link } from "react-scroll";
 
@@ -18,7 +18,9 @@ const Hero = () => {
       <Box className={styles.buttonBox}>
         <Button size="lg" mr="sm" as="button" color="pinkPurple">
           <Link to="aboutMe" spy={true} smooth={true}>
-            About me
+            <Text size="lg" color="black">
+              About me
+            </Text>
           </Link>
         </Button>
 
