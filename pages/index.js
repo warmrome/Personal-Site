@@ -11,14 +11,17 @@ export default function Home() {
       <Head>
         <html lang="en" />
         <title>Jameson Hurst</title>
-
         <meta
           name="description"
           content="Personal website and developer portfolio for Jameson Hurst"
+          key="description"
         />
+      </Head>
+      <Head>
         <meta
           name="keywords"
           content="apple, swift, swiftUI, iOS, development, developer, portfolio, react, next.js, draculaUI, coding"
+          key="keywords"
         />
       </Head>
 
