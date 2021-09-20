@@ -14,10 +14,11 @@ const AboutMe = () => {
         <Paragraph className={styles.paragraphL} m="none">
           I recently left my job at Apple to study iOS development full-time and
           embark on a major career change. Before I left, I built two Safari
-          extensions to enhance the web app my team used. The functionality they
-          offered was simple, but ended up becoming essential tools. It felt
-          great to solve real problems with code and made me realize I'd rather
-          build apps for a living.
+          extensions to enhance a web app my team used. One added dark mode
+          (essential); the other measured daily productivity. It was cool to see
+          most of the team use them in their daily workflow. Solving real
+          problems with code and made me realize I'd rather build apps for a
+          living.
         </Paragraph>
         <Paragraph className={styles.paragraphR} m="none">
           I’m currently teaching myself iOS development with a primary focus on
